@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Portfolio</title>
+    
+    <link rel="stylesheet" href="styles.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <hgroup>
+            <h1>Contact Me</h1>
+            <p><a href="https://github.com/jrivas112" target="_blank">GitHub Repository</a></p>
+        </hgroup>
+
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact and Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contact-container">
+        <section class="resume-section">
+            <h2>Resume</h2>
+            <iframe src="docs/resume.pdf" width="100%" height="80%"></iframe>
+        </section>
+
+        <section class="contact-form">
+            <h2>Lets Work Together!</h2>
+            <form>
+                <fieldset>
+                    <legend>Contact Form</legend>
+
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="organization">Organization:</label>
+                    <input type="text" id="organization" name="organization">
+
+                    <label for="message">Leave a message:</label>
+                    <textarea id="message" name="message" required></textarea>
+
+                    <button type="submit">Send</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Follow me on <a href="www.linkedin.com/in/juliomidence">LinkedIn</a>.</p>
+    </footer>
+
+</body>
+</html>
